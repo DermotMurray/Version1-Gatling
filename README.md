@@ -33,7 +33,7 @@ Execute entire
 
 Execute specific simulation
 
-    $mvn gatling:test -Denv=staging -Dgatling.simulationClass=simulations.Sessions.GetSessionsByQueryParamsSimulation
+    $mvn gatling:test -Denv=staging -Dgatling.simulationClass=simulations.Feature.SimulationClass
 
 ### Parameters
 
